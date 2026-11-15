@@ -122,11 +122,11 @@
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border;
+  transition-property: border-color;
 }
 
 .modal-form-input:focus {
-  border-color: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-form-icon {
@@ -135,6 +135,7 @@
   left: 16px;
   transform: translateY(-50%);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #2e2f42;
   transition-property: color;
   pointer-events: none;
 }
@@ -151,7 +152,7 @@
   height: 120px;
 
   font-size: 12px;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #434455;
 
@@ -173,7 +174,7 @@
 
 .modal-form-agreement {
   margin-bottom: 24px;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 
 .modal-form-policy {
@@ -226,11 +227,27 @@
 }
 
 .btn-modal {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  outline: transparent;
+
   border-radius: 4px;
   padding: 16px 32px;
   width: 169px;
   height: 56px;
+  margin: 0 auto;
 
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.btn-modal:hover,
+.btn-modal:focus {
+  background-color: #404bbf;
 }

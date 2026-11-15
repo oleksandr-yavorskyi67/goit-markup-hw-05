@@ -119,25 +119,25 @@
   background-color: inherit;
 
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
 
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: border;
+  transition-property: border-color;
 }
 
 .footer_form_input::placeholder {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #fff;
 }
 
 .footer_form_input:focus {
-  border: 1px solid #31d0aa;
+  border-color: #31d0aa;
 }
 
 .subscription-text {
