@@ -164,7 +164,7 @@
 }
 
 .modal-form-comment:focus {
-  border-color: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .modal-form-comment::placeholder {
