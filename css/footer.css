@@ -96,6 +96,13 @@
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.btn_subscribe:hover,
+.btn_subscribe:focus {
+  background-color: #31d0aa;
 }
 
 .footer-form {
@@ -108,6 +115,29 @@
   padding: 8px 16px;
   width: 264px;
   height: 40px;
+  outline: transparent;
+  background-color: inherit;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border;
+}
+
+.footer_form_input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.166;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.footer_form_input:focus {
+  border: 1px solid #31d0aa;
 }
 
 .subscription-text {
