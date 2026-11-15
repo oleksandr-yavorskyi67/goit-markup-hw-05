@@ -126,7 +126,7 @@
 }
 
 .modal-form-input:focus {
-  border: 1px solid #4d5ae5;
+  border-color: 1px solid #4d5ae5;
 }
 
 .modal-form-icon {
@@ -224,7 +224,13 @@
   text-decoration-skip-ink: none;
   color: #4d5ae5;
 }
-.btn {
-}
+
 .btn-modal {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
 }
